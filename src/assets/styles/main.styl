@@ -1,0 +1,19 @@
+@import 'iconfont/iconfont.styl'
+
+body
+	text-align center
+
+h1
+	font-size 30px
+	font-family Arial, sans-serif
+	padding 0 0 0 50px
+	position relative
+	display inline-block
+
+	&:before
+		icon($i-bugle)
+		position absolute
+		top 50%
+		left 0
+		font-size 30px
+		transform translate(0, -50%)
